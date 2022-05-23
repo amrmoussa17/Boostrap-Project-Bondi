@@ -1,0 +1,86 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Start components */
+.btn-main {
+  color: var(--yellow-color);
+  background-color: var(--red-color);
+}
+.btn-main:hover {
+  color: var(--yellow-color);
+}
+.main-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 100px;
+  background-color: var(--green-color);
+}
+/* End components */
+/* start navbar */
+nav {
+  background-color: var(--dark-color);
+}
+.navbar .nav-item .nav-link {
+  color: white;
+}
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus {
+  color: var(--green-color);
+}
+.navbar .navbar-toggler {
+  border-color: white;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--green-color);
+}
+.navbar .navbar-toggler svg {
+  color: white;
+  font-size: 24px;
+}
+.navbar .search {
+  color: var(--green-color);
+  border-left: 1px solid var(--green-color);
+}
+/* End navbar */
+/* Start landing */
+.landing {
+  background-color: var(--dark-color);
+  height: calc(100vh - 72px);
+}
+/* End landing */
+/* Start Features */
+.features .feat .feat-icons {
+  height: 200px;
+}
+.features .feat .feat-icons svg {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .feat .feat-icons .number {
+  font-size: 12rem;
+  color: var(--section-color);
+}
+.features .feat .feat-icons .shape {
+  color: var(--green-color);
+}
+.features .feat h3 {
+  color: var(--yellow-color);
+}
+/* End Features */
