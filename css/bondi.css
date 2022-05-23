@@ -8,6 +8,9 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+html {
+  box-sizing: border-box;
+}
 /* Start components */
 .btn-main {
   color: var(--yellow-color);
@@ -127,3 +130,19 @@ nav {
   max-width: 500px;
 }
 /* End Stuff */
+/* Start Team */
+.team {
+  background-color: var(--section-color);
+}
+.team h2 {
+  color: var(--yellow-color);
+}
+.team h4 {
+  background-color: var(--green-color);
+}
+/* End Team */
+/* Start Project */
+.project {
+  background-color: var(--dark-color);
+}
+/* End Project */
