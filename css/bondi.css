@@ -146,5 +146,23 @@ nav {
   background-color: var(--dark-color);
 }
 /* End Project */
-/* start blog */
-/* End blog */
+/* start subscribe */
+.subscribe {
+  background-color: var(--yellow-color);
+}
+.subscribe input[type="text"] {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  background-color: var(--dark-color);
+  color: var(--yellow-color);
+}
+/* End subscribe */
